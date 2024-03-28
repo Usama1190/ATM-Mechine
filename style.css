@@ -1,0 +1,84 @@
+:root
+{
+    --color-1: #265073;
+    --color-2: #2D9596;
+    --color-3: #9AD0C2;
+    --color-4: #F1FADA;
+    --color-5: #d6cdcd;
+    --color-6: #303030;
+}
+
+body
+{
+    color: var(--color-5);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container
+{
+    background-color: var(--color-1);
+    border: 2px solid black;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+
+.main-container #front-screen
+{
+    background-color: var(--color-1);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.main-container #front-screen .head-1
+{
+    font-size: 40px;
+}
+
+.main-container #front-screen .head-1 .span-1
+{
+    color: var(--color-2);
+}
+
+.main-container #second-screen
+{
+    background-color: var(--color-2);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.main-container #third-screen
+{
+    background-color: var(--color-2);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.main-container #fourth-screen
+{
+    background-color: var(--color-3);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.main-container #fifth-screen
+{
+    background-color: var(--color-1);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 2px solid black;
+}
