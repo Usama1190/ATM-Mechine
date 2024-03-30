@@ -1,23 +1,12 @@
 // front screen hide
-$(document).ready(function() {
-    $('#front-screen').click(function() {
-        $('#front-screen').hide();
-    });
-});
+function frontScreen() {
+    document.getElementById('front-screen').style.display = 'none';
+}
 
 // third screen hide
-$(document).ready(function() {
-    $('#btn-2').click(function() {
-        $('#third-screen').hide();
-    });
-});
-
-// fourth screen hide
-// $(document).ready(function() {
-//     $('#btn-3').click(function() {
-//         $('#fourth-screen').hide();
-//     });
-// });
+function thirdScreen() {
+    document.getElementById('third-screen').style.display = 'none';
+}
 
 
 // Validation of pin code
@@ -44,8 +33,6 @@ function checkPin() {
 
 
 function amountWithDraw() {
-    // var valid_amount = 10000;
-
     var user_input_amount = document.getElementById('input-2').value;
 
     if(user_input_amount <= valid_amount) {
@@ -57,7 +44,8 @@ function amountWithDraw() {
         document.getElementById('info-3').innerHTML = 'Your remaining amount is: $' + remaining_amount + '/-';
     }
     else {
-        document.getElementById('para-2').innerHTML = 'Insuffient Amount';
+        document.getElementById('para-3').innerHTML = 'Insuffient Amount';
+        document.getElementById('para-3').style.color = '#bb2124';
     }
 };
 

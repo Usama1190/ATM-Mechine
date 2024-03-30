@@ -8,14 +8,13 @@
     <!-- CSS FILE -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Jquery Connected -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
 </head>
 <body>
     <div class="main-container">
-        <div id="front-screen">
-            <h2 class="head-1">BANK OF PAKISTAN <span class="span-1">ATM</span></h2>
+        <div id="front-screen" onclick="frontScreen()">
+            <!-- <img src="atm-image-3.jpg" alt="ATM image" id="img-1"> -->
+            <h2 class="head-1">BANK OF PAKISTAN </h2>
+            <h2 class="head-2">ATM</h2>
         </div>
 
         <div id="second-screen">
@@ -26,14 +25,14 @@
             <button type="button" id="btn-1" onclick="checkPin()">Enter</button>
         </div>
 
-        <div id="third-screen">
+        <div id="third-screen" onclick="thirdScreen()">
             <button type="button" id="btn-2">Withdraw</button>
             <button type="button" id="btn-2" onclick="balanceCheck()">Balance</button>
         </div>
 
         <div id="fourth-screen">
             <input type="number" id="input-2" placeholder="Enter amount"><br><br>
-            <p id="para-2"></p>
+            <p id="para-3"></p>
             <button type="button" id="btn-3" onclick="amountWithDraw()">Enter</button>
         </div>
 
