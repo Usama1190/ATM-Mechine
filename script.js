@@ -28,6 +28,7 @@ function checkPin() {
         document.getElementById('para-1').innerHTML = 'Invalid pin code';
         document.getElementById('para-2').innerHTML = 'hint: 12345';
         document.getElementById('para-1').style.color = '#bb2124';
+        document.getElementById('para-2').style.color = '#000';
     }
 }
 
@@ -45,6 +46,7 @@ function amountWithDraw() {
     }
     else {
         document.getElementById('para-3').innerHTML = 'Insuffient Amount';
+        document.getElementById('para-4').innerHTML = 'Amount must be less than $10,000.';
         document.getElementById('para-3').style.color = '#bb2124';
     }
 };
