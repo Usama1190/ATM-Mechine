@@ -45,7 +45,7 @@ function amountWithDraw() {
         document.getElementById('info-3').innerHTML = 'Your remaining amount is: $' + remaining_amount + '/-';
     }
     else {
-        document.getElementById('para-3').innerHTML = 'Insuffient Amount';
+        document.getElementById('para-3').innerHTML = 'Insufficient Amount';
         document.getElementById('para-4').innerHTML = 'Amount must be less than $10,000.';
         document.getElementById('para-3').style.color = '#bb2124';
     }

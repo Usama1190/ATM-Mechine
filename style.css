@@ -20,7 +20,6 @@ body
 .main-container
 {
     background-color: var(--color-1);
-    border: 2px solid black;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -79,6 +78,7 @@ body
     height: 100vh;
     text-align: center;
     border: 2px solid black;
+    cursor:default;
 }
 
 .main-container #fifth-screen #info
@@ -181,11 +181,11 @@ body
 }
 
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
     .main-container
     {
         background-image: url(atm-image-3.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-}
+} */
